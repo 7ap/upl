@@ -1,0 +1,11 @@
+[package]
+name = "upl"
+version = "0.0.0"
+authors = ["7ap"]
+edition = "2021"
+description = "The intuitive command-line file uploader written in Rust."
+license = "MIT"
+repository = "https://github.com/7ap/upl"
+
+
+[dependencies]

@@ -3,7 +3,7 @@ name = "upl"
 version = "0.0.0"
 authors = ["7ap"]
 edition = "2021"
-description = "The intuitive command-line file uploader written in Rust."
+description = "The intuitive command-line file uploader."
 license = "MIT"
 repository = "https://github.com/7ap/upl"
 

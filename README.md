@@ -16,7 +16,7 @@ $ cargo install upl
 
 ## ⚙️ Usage
 
-- View the built-in usage with `upl --help`.
+View usage with the `upl --help` command.
 
 ### 🤔 Examples
 

@@ -9,3 +9,4 @@ repository = "https://github.com/7ap/upl"
 
 
 [dependencies]
+clap = { version = "4.0.9", features = ["derive"] }

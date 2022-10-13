@@ -4,8 +4,10 @@ version = "0.1.0"
 authors = ["7ap"]
 edition = "2021"
 description = "The intuitive command-line file uploader."
-license = "MIT"
+documentation = "https://docs.rs/upl"
+readme = "README.md"
 repository = "https://github.com/7ap/upl"
+license = "MIT"
 
 
 [dependencies]

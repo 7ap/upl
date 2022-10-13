@@ -21,7 +21,8 @@ View usage with the `upl --help` command.
 
 ### 🤔 Examples
 
-- TODO: after writing the thing, finish this
+- `upl --file foo.zip`
+- `upl -f bar.png`
 
 ### 🛠️ Augment
 

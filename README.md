@@ -4,7 +4,8 @@ The intuitive command-line file uploader.
 
 ## 🗺️ Features (roadmap)
 
-- [ ] Sane built-in upload destinations
+- [x] Upload files via the command-line
+- [x] Sane built-in upload destinations
 - [ ] Configuration files via TOML
 - [ ] ShareX custom uploader (.sxcu) support
 

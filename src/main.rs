@@ -29,6 +29,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         if destination.exists() {
             panic!("Destination does not exist.")
         }
+
+        unimplemented!("Custom destinations are WIP.")
     }
 
     Ok(())

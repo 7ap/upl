@@ -2,7 +2,7 @@
 
 The intuitive command-line file uploader.
 
-## 🗺️ Features (roadmap)
+## 🗺️ Features
 
 - [x] Upload files via the command-line
 - [x] Sane built-in upload destinations
@@ -21,8 +21,7 @@ View usage with the `upl --help` command.
 
 ### 🤔 Examples
 
-- `upl --file foo.zip`
-- `upl -f bar.png`
+- `...`
 
 ### 🛠️ Augment
 

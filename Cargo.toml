@@ -9,7 +9,4 @@ readme = "README.md"
 repository = "https://github.com/7ap/upl"
 license = "MIT"
 
-
 [dependencies]
-clap = { version = "4.0.9", features = ["derive"] }
-reqwest = { version = "0.11.12", features = ["blocking", "multipart"] }

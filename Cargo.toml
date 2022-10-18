@@ -10,4 +10,5 @@ repository = "https://github.com/7ap/upl"
 license = "MIT"
 
 [dependencies]
+clap = { version = "4.0.16", features = ["derive"] }
 tokio = { version = "1.0", features = ["full"] }

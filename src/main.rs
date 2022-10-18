@@ -8,8 +8,8 @@ struct Args {
     /// Path to file
     file: PathBuf,
 
-    /// Configuration file (.toml or .sxcu)
-    config: PathBuf,
+    /// Upload destination
+    destination: PathBuf,
 }
 
 #[tokio::main]
@@ -17,7 +17,15 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
 
     let file = args.file;
-    let config = args.config;
+    let destination = args.destination;
+
+    if !file.exists() {
+        panic!("File does not exist.")
+    }
+
+    if !destination.exists() {
+        panic!("Destination does not exist.")
+    }
 
     Ok(())
 }

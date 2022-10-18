@@ -9,7 +9,7 @@ struct Args {
     file: PathBuf,
 
     /// Upload destination
-    destination: PathBuf,
+    destination: Option<PathBuf>,
 }
 
 #[tokio::main]
@@ -23,8 +23,12 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         panic!("File does not exist.")
     }
 
-    if !destination.exists() {
-        panic!("Destination does not exist.")
+    if destination.is_some() {
+        let destination = destination.as_ref().unwrap();
+
+        if destination.exists() {
+            panic!("Destination does not exist.")
+        }
     }
 
     Ok(())

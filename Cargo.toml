@@ -10,3 +10,4 @@ repository = "https://github.com/7ap/upl"
 license = "MIT"
 
 [dependencies]
+tokio = { version = "1.0", features = ["full"] }
